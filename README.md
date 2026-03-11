@@ -22,10 +22,9 @@ OVIS-OE/
 ├── annotation_test2.json     # Test split file (fold 2)
 ├── annotation_test3.json     # Test split file (fold 3)
 └── annotation_test4.json     # Test split file (fold 4)
-```text
+```
 
-
-The flow maps are generated from RATF. You can generate flow maps by yourself or download the maps we have already generated from [Google Drive](此处填入Google Drive下载地址).
+The flow maps are generated from RATF. You can generate flow maps by yourself or download the pre-generated maps from [here](此处填入 flow maps 下载地址).
 
 
 

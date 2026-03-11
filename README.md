@@ -2,27 +2,28 @@
 Official implement of Motion and Spatial-Temporal Aggregation Network for Occlusion Edge Detection from Videos (MaSTAN)
 
 ## Dataset
-OVIS-OE dataset now is available!
-You can download OVIS-OE dataset from \href {此处填入 Google Drive 下载地址}{Google Drive}.
+OVIS-OE dataset is now available! You can download OVIS-OE dataset from [Google Drive](此处填入Google Drive下载地址).
 
 The structure of OVIS-OE is:
+```text
+OVIS-OE/
 ├── Images/
 │   └── train/                # Images for training
-├── Edge/                     # Edge annotation, each image has a size of [H, W], and the pixel value is {0, 1, 2}, where 0 denotes background, 1 denotes OB edge, 2 denotes OO edge
-|                             
-│── Edge_2channel_mat.zip     # We also provide edge label in .mat format (⚠️:It is about 120G after unzipping!!!)
-├── annotation_train0.json    # Train split file
-├── annotation_train1.json    
-├── annotation_train2.json    
-├── annotation_train3.json    
-├── annotation_train4.json    
-├── annotation_test0.json     # Test split file
-├── annotation_test1.json     
-├── annotation_test2.json     
-├── annotation_test3.json     
-├── annotation_test4.json
+├── Edge/                     # Edge annotation, each image has size [H, W],
+│   │                         # pixel values: {0, 1, 2} (0: background, 1: OB edge, 2: OO edge)
+├── Edge_2channel_mat.zip     # Edge labels in .mat format (⚠️: ~120G after unzipping!!!)
+├── annotation_train0.json    # Train split file (fold 0)
+├── annotation_train1.json    # Train split file (fold 1)
+├── annotation_train2.json    # Train split file (fold 2)
+├── annotation_train3.json    # Train split file (fold 3)
+├── annotation_train4.json    # Train split file (fold 4)
+├── annotation_test0.json     # Test split file (fold 0)
+├── annotation_test1.json     # Test split file (fold 1)
+├── annotation_test2.json     # Test split file (fold 2)
+├── annotation_test3.json     # Test split file (fold 3)
+└── annotation_test4.json     # Test split file (fold 4)
 
-The flow maps are generated from RATF. You can generate flow maps by yourself or download the maps we have already generated \href {此处填入 flow maps 下载地址}{here}.
+The flow maps are generated from RATF. You can generate flow maps by yourself or download the maps we have already generated from [Google Drive](此处填入Google Drive下载地址).
 
 
 

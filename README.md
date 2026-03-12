@@ -2,7 +2,7 @@
 Official implement of Motion and Spatial-Temporal Aggregation Network for Occlusion Edge Detection from Videos (MaSTAN)
 
 ## Dataset
-OVIS-OE dataset is now available! You can download OVIS-OE dataset from [Google Drive](此处填入Google Drive下载地址).
+OVIS-OE dataset is now available! You can download OVIS-OE dataset from [Google Drive](https://drive.google.com/drive/folders/1TLa4AWkcFAEfbrI_BHezfMQ9kjTtdwcG?usp=drive_link).
 
 The structure of OVIS-OE is:
 ```text
@@ -24,7 +24,7 @@ OVIS-OE/
 └── annotation_test4.json     # Test split file (fold 4)
 ```
 
-The flow maps are generated from RATF. You can generate flow maps by yourself or download the pre-generated maps from [here](此处填入 flow maps 下载地址).
+The flow maps are generated from RATF. You can generate flow maps by yourself or download the pre-generated maps from [here](https://drive.google.com/drive/folders/1TLa4AWkcFAEfbrI_BHezfMQ9kjTtdwcG?usp=drive_link).
 
 
 

@@ -55,8 +55,13 @@ First, change the args in inference_opts.py, confirm your OVIS-OE data path and 
 Then, you can run inference_ovisoe.py for inference.
 For example, inference the Video-Swin-Base model on group 0, run the following command:
 ```
-python inference_ovisoe.py --backbone video_swin_b_p4w7 --f_token 8 --resume [/your/path/to/trained_model_weight] --output_dir=[your/output/path] --train_num 0
+python inference_ovisoe.py --backbone video_swin_b_p4w7 --f_token 8 --resume [/your/path/to/trained_model_weight] --model_iter /checkpoint.pth --output_dir=[your/output/path] --train_num 0
 ```
+
+#### Model Zoo
+We also provided a pretrained model for inference, you can download the model weight from pretrain weight folder [here](https://drive.google.com/drive/folders/1TLa4AWkcFAEfbrI_BHezfMQ9kjTtdwcG?usp=drive_link) and run the above inference command.
+
+
 
 
 

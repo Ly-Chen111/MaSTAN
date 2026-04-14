@@ -59,7 +59,7 @@ python inference_ovisoe.py --backbone video_swin_b_p4w7 --f_token 8 --resume [/y
 ```
 
 #### Model Zoo
-We also provided a pretrained model for inference, you can download the model weight from pretrain weight folder [here](https://drive.google.com/drive/folders/1TLa4AWkcFAEfbrI_BHezfMQ9kjTtdwcG?usp=drive_link) and run the above inference command.
+We also provided a pretrained model for inference, you can download the checkpoint.pth from [here](https://drive.google.com/drive/folders/1TLa4AWkcFAEfbrI_BHezfMQ9kjTtdwcG?usp=drive_link) and run the above inference command.
 
 
 
